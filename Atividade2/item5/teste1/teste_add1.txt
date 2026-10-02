@@ -1,0 +1,6 @@
+inicio
+inteiro repita = 10$
+inteiro faca2 = 5$
+booleano naoSei = sim$
+mostre (repita)$
+fim

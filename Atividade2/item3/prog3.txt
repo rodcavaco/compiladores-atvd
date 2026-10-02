@@ -1,0 +1,47 @@
+inicio
+inteiro estoque$
+inteiro quantidade$
+inteiro limite$
+inteiro contador$
+inteiro i$
+real preco$
+real total$
+texto produto$
+produto = 'Teclado'$
+estoque = 25$
+quantidade = 3$
+limite = 10$
+contador = 0$
+preco = 149,90$
+total = 0,0$
+{---
+Inicio do processamento do estoque.
+O sistema verifica a quantidade disponivel
+e calcula o valor da compra.
+---}
+se [estoque >= quantidade] faz {
+estoque = estoque - quantidade$
+total = quantidade * preco$
+mostre ('Produto: ')$
+mostre (produto)$
+mostre('Valor total: ')$
+mostre (total)$
+} senao {
+mostre('Estoque insuficiente.')$
+}
+repita_enquanto [contador < 5] {
+contador = contador + 1$
+mostre('Verificando estoque...')$
+}
+para i de 1 ate 3 faca {
+mostre ('Lote conferido: ')$
+mostre(i)$
+}
+se [estoque % 2 == 0] faz {
+mostre('Quantidade par em estoque.')$
+}
+#coment verificacao final
+se [estoque <= limite && estoque != quantidade] faz {
+mostre('Atencao: estoque baixo.')$
+}
+fim

@@ -1,0 +1,7 @@
+inicio
+{---
+Esse eh um bloco de comentario
+Ele tem chaves {} dentro dele
+---}
+#coment e esse eh em linha com { tbm
+fim

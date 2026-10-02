@@ -1,0 +1,15 @@
+inicio
+inteiro 123nome$
+real x$
+x = 10,25,30$
+idade = 20 @ 5$
+preco = 3.14$
+total = preco , 2$
+mostre('fim do calculo')$ #
+texto s$
+s = "aspas duplas nao existem aqui"$
+texto t$
+t = 'esta string nao termina$
+{---
+comentario sem fechamento
+fim

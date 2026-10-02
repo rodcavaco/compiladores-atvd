@@ -1,0 +1,33 @@
+inicio
+texto nome$
+real nota1$
+real nota2$
+real nota3$
+real media$
+inteiro faltas$
+booleano aprovado$
+nome = 'Carlos'$
+nota1 = 8,5$
+nota2 = 7,0$
+nota3 = 9,0$
+faltas = 3$
+media = (nota1 + nota2 + nota3) / 3,0$
+aprovado = nao$
+se [media >= 7,0 && faltas <= 10] faz {
+aprovado = sim$
+mostre ('Aluno aprovado.')$
+mostre (nome)$
+mostre (media)$
+} senao {
+aprovado = nao$
+mostre ('Aluno reprovado.')$
+mostre (nome)$
+mostre (media)$
+}
+se [media == 10,0 || faltas == 0] faz {
+mostre ('Excelente resultado!')$
+}
+se [!aprovado && media > 0,0] faz {
+mostre('Verificar recuperacao.')$
+}
+fim

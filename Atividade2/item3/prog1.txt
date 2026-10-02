@@ -1,0 +1,26 @@
+inicio
+inteiro idade$
+inteiro dependentes$
+real salario$
+real bonus$
+real salario_final$
+texto nome$
+nome = 'Maria'$
+idade = 35$
+dependentes = 2$
+salario = 4500,00$
+bonus = salario * 0,10$
+salario_final = salario + bonus$
+mostre('Nome: ')$
+mostre (nome)$
+mostre('Idade: ')$
+mostre (idade)$
+mostre ('Dependentes: ')$
+mostre (dependentes)$
+mostre('Salario final: ')$
+mostre (salario_final)$
+#coment calculo adicional para dependentes
+salario_final = salario_final + (dependentes * 150,00)$
+mostre('Salario com beneficio: ')$
+mostre (salario_final)$
+fim

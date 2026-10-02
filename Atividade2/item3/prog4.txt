@@ -1,0 +1,30 @@
+inicio
+funcao real media (real a; real b) {
+retorne (a + b) / 2,0$
+}
+funcao booleano passou (real m) {
+se [m >= 6,0] faz {
+retorne sim$
+} senao {
+retorne nao$
+}
+}
+fim
+real p1$
+real p2$
+real m$
+booleano ok$
+mostre('Digite a primeira nota: ')$
+leia (p1)$
+mostre('Digite a segunda nota: ')$
+leia (p2)$
+m = media(p1; p2)$
+ok = passou (m)$
+mostre ('Media: ')$
+mostre (m)$
+ok = passou (7,5)$
+se [ok == sim] faz {
+mostre('Situacao: aprovado')$
+} senao {
+mostre('Situacao: reprovado')$
+}

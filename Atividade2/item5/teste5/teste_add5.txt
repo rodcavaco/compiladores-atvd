@@ -1,0 +1,5 @@
+inicio
+inteiro $valido = 10$ 
+# O $ deve ficar so no fim, no meio gera erro ou corta id
+real 0_numero_invalido$
+fim
